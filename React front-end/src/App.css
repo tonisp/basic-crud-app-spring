@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  margin: 3px;
+}
+
+.button:hover {
+  background-color: rgb(17, 37, 90);
+  cursor: pointer;
+}
+
+button:active {
+  text-decoration: underline;
+}
+
+tr, td, th {
+  border: 1px solid black;
+}
+
+table {
+  width: 100vw;
+  border-radius: 100px;
+}
+
+.table thead th {
+  background-color: #212529;
+  color: #fff;
+  position: sticky;
+}
+
+.footer {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+}
